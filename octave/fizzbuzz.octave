@@ -1,0 +1,13 @@
+
+for i = 1 : 1000
+	if (mod(i, 15) == 0)
+		printf("FizzBuzz\n");
+	elseif (mod(i, 3) == 0)
+		printf("Fizz\n");
+	elseif (mod(i, 5) == 0)
+		printf("Buzz\n");
+	else
+		printf("%d\n", i);
+	endif
+endfor
+
